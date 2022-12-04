@@ -16,7 +16,7 @@ def validate_user_input():
         except ValueError:
             print('You did not enter a valid number, please try again')
             continue 
-validate_user_input()
+# validate_user_input()
         
 
 # NOTE: What type of error does python throw if you try to turn a non-number string into an integer?
@@ -31,8 +31,7 @@ validate_user_input()
 # print(f'The number the user entered is {user_number}.')
 
 
-user_number = validate_user_input()
-print(f'The number the user entered is {user_number}.')
+#  
 
 # 2.1 TODO: Create a function called print_tenth_item that will
 # - take in a list of items as a parameter called `top_ten`
